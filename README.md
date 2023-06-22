@@ -1,3 +1,9 @@
+ABOUT:
+In this program, the user can adjust the temperature by clicking two buttons. The background color of the displayed temperature corresponds to the temperature set by the user, which changes in three different temperature ranges. The temperature range is between 0 and 30 degrees.
+
+NOTE:
+Please consider that due to reducing the size of the files, the node_modules folder has not been uploaded. Therefore, if you download the files of this Repository, be sure to download the node_modules files through the terminal.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
