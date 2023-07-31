@@ -2,19 +2,20 @@
   color: white;
 }
 body {
-  background-color: #fdcb6e;
+  background-image: linear-gradient(to right, rgb(185, 25, 25),rgb(22, 22, 172));
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .container {
   background-color: #ffeaa7;
-  margin: 20px auto;
+  margin: 50px auto;
   width: 300px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
   padding: 20px 20px;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 .display {
@@ -25,6 +26,7 @@ body {
   text-align: center;
   line-height: 300px;
   font-size: 4rem;
+  transition: 0.4s;
 }
 
 .btns {
@@ -53,12 +55,15 @@ body {
 }
 .positive:hover {
   background-color: #d63031;
+  transform: scale(1.2);
 }
 .negative {
   background-color: #55b0f6;
 }
 .negative:hover {
   background-color: #0984e3;
+    transform: scale(1.2);
+
 }
 
 .cold {
@@ -66,7 +71,7 @@ body {
 }
 
 .medium {
-  background-color: #78e08f;
+  background-color: #0b7f24;
 }
 
 .hot {
