@@ -1,4 +1,4 @@
-# temperature-controller-react.js
+# temperature-controller--react
 ## How to use
 1. Download it
 2. Extract it
